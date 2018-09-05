@@ -1,0 +1,65 @@
+// dot 2.38.0 on Windows 10 10.0
+// SchemaSpy rev 590
+digraph "VIEW_BENEFICIARYDETAILS" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "VIEW_BENEFICIARYDETAILS" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">VIEW_BENEFICIARYDETAILS</TD></TR>
+      <TR><TD PORT="Remit_No" COLSPAN="3" ALIGN="LEFT">Remit_No</TD></TR>
+      <TR><TD PORT="Bene_No" COLSPAN="3" ALIGN="LEFT">Bene_No</TD></TR>
+      <TR><TD PORT="ModeOfDisbursal" COLSPAN="3" ALIGN="LEFT">ModeOfDisbursal</TD></TR>
+      <TR><TD PORT="Bene_FirstName" COLSPAN="3" ALIGN="LEFT">Bene_FirstName</TD></TR>
+      <TR><TD PORT="ChineseName" COLSPAN="3" ALIGN="LEFT">ChineseName</TD></TR>
+      <TR><TD PORT="Bene_LastName" COLSPAN="3" ALIGN="LEFT">Bene_LastName</TD></TR>
+      <TR><TD PORT="Bene_Name" COLSPAN="3" ALIGN="LEFT">Bene_Name</TD></TR>
+      <TR><TD PORT="DATEOF_BIRTH" COLSPAN="3" ALIGN="LEFT">DATEOF_BIRTH</TD></TR>
+      <TR><TD PORT="Gender" COLSPAN="3" ALIGN="LEFT">Gender</TD></TR>
+      <TR><TD PORT="Address1" COLSPAN="3" ALIGN="LEFT">Address1</TD></TR>
+      <TR><TD PORT="Address2" COLSPAN="3" ALIGN="LEFT">Address2</TD></TR>
+      <TR><TD PORT="City" COLSPAN="3" ALIGN="LEFT">City</TD></TR>
+      <TR><TD PORT="District" COLSPAN="3" ALIGN="LEFT">District</TD></TR>
+      <TR><TD PORT="State" COLSPAN="3" ALIGN="LEFT">State</TD></TR>
+      <TR><TD PORT="Country" COLSPAN="3" ALIGN="LEFT">Country</TD></TR>
+      <TR><TD PORT="PostalCode" COLSPAN="3" ALIGN="LEFT">PostalCode</TD></TR>
+      <TR><TD PORT="Bene_AccNo" COLSPAN="3" ALIGN="LEFT">Bene_AccNo</TD></TR>
+      <TR><TD PORT="Bene_AccType" COLSPAN="3" ALIGN="LEFT">Bene_AccType</TD></TR>
+      <TR><TD PORT="Bene_Bank" COLSPAN="3" ALIGN="LEFT">Bene_Bank</TD></TR>
+      <TR><TD PORT="Bene_Branch" COLSPAN="3" ALIGN="LEFT">Bene_Branch</TD></TR>
+      <TR><TD PORT="BankCode" COLSPAN="3" ALIGN="LEFT">BankCode</TD></TR>
+      <TR><TD PORT="Nationality" COLSPAN="3" ALIGN="LEFT">Nationality</TD></TR>
+      <TR><TD PORT="Relationship_Remitter" COLSPAN="3" ALIGN="LEFT">Relationship_Remitter</TD></TR>
+      <TR><TD PORT="Home_Phone" COLSPAN="3" ALIGN="LEFT">Home_Phone</TD></TR>
+      <TR><TD PORT="Hand_Phone" COLSPAN="3" ALIGN="LEFT">Hand_Phone</TD></TR>
+      <TR><TD PORT="Office_Phone" COLSPAN="3" ALIGN="LEFT">Office_Phone</TD></TR>
+      <TR><TD PORT="EmailId" COLSPAN="3" ALIGN="LEFT">EmailId</TD></TR>
+      <TR><TD PORT="Rowstatus" COLSPAN="3" ALIGN="LEFT">Rowstatus</TD></TR>
+      <TR><TD PORT="Flag1" COLSPAN="3" ALIGN="LEFT">Flag1</TD></TR>
+      <TR><TD PORT="Flag2" COLSPAN="3" ALIGN="LEFT">Flag2</TD></TR>
+      <TR><TD PORT="Created_By" COLSPAN="3" ALIGN="LEFT">Created_By</TD></TR>
+      <TR><TD PORT="Created_Date" COLSPAN="3" ALIGN="LEFT">Created_Date</TD></TR>
+      <TR><TD PORT="Updated_By" COLSPAN="3" ALIGN="LEFT">Updated_By</TD></TR>
+      <TR><TD PORT="Updated_Date" COLSPAN="3" ALIGN="LEFT">Updated_Date</TD></TR>
+      <TR><TD PORT="Bene_FailureReason" COLSPAN="3" ALIGN="LEFT">Bene_FailureReason</TD></TR>
+      <TR><TD PORT="Bene_KYC" COLSPAN="3" ALIGN="LEFT">Bene_KYC</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">view</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/VIEW_BENEFICIARYDETAILS.html"
+    tooltip="VIEW_BENEFICIARYDETAILS"
+  ];
+}

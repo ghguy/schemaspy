@@ -1,0 +1,48 @@
+// dot 2.38.0 on Windows 10 10.0
+// SchemaSpy rev 590
+digraph "TBL_LOCATIONMASTER" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "TBL_LOCATIONMASTER" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">TBL_LOCATIONMASTER</TD></TR>
+      <TR><TD PORT="Location_Id" COLSPAN="3" ALIGN="LEFT">Location_Id</TD></TR>
+      <TR><TD PORT="Location_Name" COLSPAN="3" ALIGN="LEFT">Location_Name</TD></TR>
+      <TR><TD PORT="Location_ShortName" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">Location_ShortName</TD></TR>
+      <TR><TD PORT="ContactPerson" COLSPAN="3" ALIGN="LEFT">ContactPerson</TD></TR>
+      <TR><TD PORT="Locn_Addr1" COLSPAN="3" ALIGN="LEFT">Locn_Addr1</TD></TR>
+      <TR><TD PORT="Locn_Addr2" COLSPAN="3" ALIGN="LEFT">Locn_Addr2</TD></TR>
+      <TR><TD PORT="Locn_District" COLSPAN="3" ALIGN="LEFT">Locn_District</TD></TR>
+      <TR><TD PORT="Locn_State" COLSPAN="3" ALIGN="LEFT">Locn_State</TD></TR>
+      <TR><TD PORT="Locn_Ctry" COLSPAN="3" ALIGN="LEFT">Locn_Ctry</TD></TR>
+      <TR><TD PORT="Locn_Pin" COLSPAN="3" ALIGN="LEFT">Locn_Pin</TD></TR>
+      <TR><TD PORT="Phone1" COLSPAN="3" ALIGN="LEFT">Phone1</TD></TR>
+      <TR><TD PORT="Phone2" COLSPAN="3" ALIGN="LEFT">Phone2</TD></TR>
+      <TR><TD PORT="Fax" COLSPAN="3" ALIGN="LEFT">Fax</TD></TR>
+      <TR><TD PORT="Email_Id" COLSPAN="3" ALIGN="LEFT">Email_Id</TD></TR>
+      <TR><TD PORT="RowStatus" COLSPAN="3" ALIGN="LEFT">RowStatus</TD></TR>
+      <TR><TD PORT="UpdatedDateTime" COLSPAN="3" ALIGN="LEFT">UpdatedDateTime</TD></TR>
+      <TR><TD PORT="UpdatedBy" COLSPAN="3" ALIGN="LEFT">UpdatedBy</TD></TR>
+      <TR><TD PORT="IPRange" COLSPAN="3" ALIGN="LEFT">IPRange</TD></TR>
+      <TR><TD PORT="BankId" COLSPAN="3" ALIGN="LEFT">BankId</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1 row</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/TBL_LOCATIONMASTER.html"
+    tooltip="TBL_LOCATIONMASTER"
+  ];
+}

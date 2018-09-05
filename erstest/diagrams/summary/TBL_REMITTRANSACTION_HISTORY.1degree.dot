@@ -1,0 +1,104 @@
+// dot 2.38.0 on Windows 10 10.0
+// SchemaSpy rev 590
+digraph "TBL_REMITTRANSACTION_HISTORY" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "TBL_REMITTRANSACTION_HISTORY" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">TBL_REMITTRANSACTION_HISTORY</TD></TR>
+      <TR><TD PORT="Remit_No" COLSPAN="3" ALIGN="LEFT">Remit_No</TD></TR>
+      <TR><TD PORT="Trn_No" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">Trn_No</TD></TR>
+      <TR><TD PORT="Trn_Date" COLSPAN="3" ALIGN="LEFT">Trn_Date</TD></TR>
+      <TR><TD PORT="Trn_Type" COLSPAN="3" ALIGN="LEFT">Trn_Type</TD></TR>
+      <TR><TD PORT="Benef_Name" COLSPAN="3" ALIGN="LEFT">Benef_Name</TD></TR>
+      <TR><TD PORT="Acc_Type" COLSPAN="3" ALIGN="LEFT">Acc_Type</TD></TR>
+      <TR><TD PORT="Benef_AccNo" COLSPAN="3" ALIGN="LEFT">Benef_AccNo</TD></TR>
+      <TR><TD PORT="Benef_Addr1" COLSPAN="3" ALIGN="LEFT">Benef_Addr1</TD></TR>
+      <TR><TD PORT="Benef_Addr2" COLSPAN="3" ALIGN="LEFT">Benef_Addr2</TD></TR>
+      <TR><TD PORT="Benef_Ctry" COLSPAN="3" ALIGN="LEFT">Benef_Ctry</TD></TR>
+      <TR><TD PORT="Benef_PinCode" COLSPAN="3" ALIGN="LEFT">Benef_PinCode</TD></TR>
+      <TR><TD PORT="MsgToBenef" COLSPAN="3" ALIGN="LEFT">MsgToBenef</TD></TR>
+      <TR><TD PORT="Branch_Code" COLSPAN="3" ALIGN="LEFT">Branch_Code</TD></TR>
+      <TR><TD PORT="Payment_Mode" COLSPAN="3" ALIGN="LEFT">Payment_Mode</TD></TR>
+      <TR><TD PORT="Amount" COLSPAN="3" ALIGN="LEFT">Amount</TD></TR>
+      <TR><TD PORT="Remarks" COLSPAN="3" ALIGN="LEFT">Remarks</TD></TR>
+      <TR><TD PORT="Inst_Currency" COLSPAN="3" ALIGN="LEFT">Inst_Currency</TD></TR>
+      <TR><TD PORT="Inst_Amount" COLSPAN="3" ALIGN="LEFT">Inst_Amount</TD></TR>
+      <TR><TD PORT="Eq_Ccy" COLSPAN="3" ALIGN="LEFT">Eq_Ccy</TD></TR>
+      <TR><TD PORT="Eq_Amt" COLSPAN="3" ALIGN="LEFT">Eq_Amt</TD></TR>
+      <TR><TD PORT="Exchange_Rate" COLSPAN="3" ALIGN="LEFT">Exchange_Rate</TD></TR>
+      <TR><TD PORT="Commission" COLSPAN="3" ALIGN="LEFT">Commission</TD></TR>
+      <TR><TD PORT="Postage" COLSPAN="3" ALIGN="LEFT">Postage</TD></TR>
+      <TR><TD PORT="Other_Charges" COLSPAN="3" ALIGN="LEFT">Other_Charges</TD></TR>
+      <TR><TD PORT="Settle_Cash" COLSPAN="3" ALIGN="LEFT">Settle_Cash</TD></TR>
+      <TR><TD PORT="Settle_NonCash" COLSPAN="3" ALIGN="LEFT">Settle_NonCash</TD></TR>
+      <TR><TD PORT="Total_CashReceived" COLSPAN="3" ALIGN="LEFT">Total_CashReceived</TD></TR>
+      <TR><TD PORT="Remit_Purpose" COLSPAN="3" ALIGN="LEFT">Remit_Purpose</TD></TR>
+      <TR><TD PORT="Print_Flag" COLSPAN="3" ALIGN="LEFT">Print_Flag</TD></TR>
+      <TR><TD PORT="Reprint_Flag" COLSPAN="3" ALIGN="LEFT">Reprint_Flag</TD></TR>
+      <TR><TD PORT="Cancel_Flag" COLSPAN="3" ALIGN="LEFT">Cancel_Flag</TD></TR>
+      <TR><TD PORT="Cancel_Remarks" COLSPAN="3" ALIGN="LEFT">Cancel_Remarks</TD></TR>
+      <TR><TD PORT="Cancel_Authid" COLSPAN="3" ALIGN="LEFT">Cancel_Authid</TD></TR>
+      <TR><TD PORT="Aml_Flag" COLSPAN="3" ALIGN="LEFT">Aml_Flag</TD></TR>
+      <TR><TD PORT="Aml_AuthId" COLSPAN="3" ALIGN="LEFT">Aml_AuthId</TD></TR>
+      <TR><TD PORT="Inst_no" COLSPAN="3" ALIGN="LEFT">Inst_no</TD></TR>
+      <TR><TD PORT="Auth_id" COLSPAN="3" ALIGN="LEFT">Auth_id</TD></TR>
+      <TR><TD PORT="Auth_Remarks" COLSPAN="3" ALIGN="LEFT">Auth_Remarks</TD></TR>
+      <TR><TD PORT="RowStatus" COLSPAN="3" ALIGN="LEFT">RowStatus</TD></TR>
+      <TR><TD PORT="Created_By" COLSPAN="3" ALIGN="LEFT">Created_By</TD></TR>
+      <TR><TD PORT="Created_DateTime" COLSPAN="3" ALIGN="LEFT">Created_DateTime</TD></TR>
+      <TR><TD PORT="Modified_By" COLSPAN="3" ALIGN="LEFT">Modified_By</TD></TR>
+      <TR><TD PORT="Modified_DateTime" COLSPAN="3" ALIGN="LEFT">Modified_DateTime</TD></TR>
+      <TR><TD PORT="FileName" COLSPAN="3" ALIGN="LEFT">FileName</TD></TR>
+      <TR><TD PORT="FileCheckSum" COLSPAN="3" ALIGN="LEFT">FileCheckSum</TD></TR>
+      <TR><TD PORT="Trans_Flag" COLSPAN="3" ALIGN="LEFT">Trans_Flag</TD></TR>
+      <TR><TD PORT="LOCATION" COLSPAN="3" ALIGN="LEFT">LOCATION</TD></TR>
+      <TR><TD PORT="Trans_Error" COLSPAN="3" ALIGN="LEFT">Trans_Error</TD></TR>
+      <TR><TD PORT="IFSC_Code" COLSPAN="3" ALIGN="LEFT">IFSC_Code</TD></TR>
+      <TR><TD PORT="Ben_OldName" COLSPAN="3" ALIGN="LEFT">Ben_OldName</TD></TR>
+      <TR><TD PORT="Channel" COLSPAN="3" ALIGN="LEFT">Channel</TD></TR>
+      <TR><TD PORT="Bank" COLSPAN="3" ALIGN="LEFT">Bank</TD></TR>
+      <TR><TD PORT="BoardRate" COLSPAN="3" ALIGN="LEFT">BoardRate</TD></TR>
+      <TR><TD PORT="Swift_Flag" COLSPAN="3" ALIGN="LEFT">Swift_Flag</TD></TR>
+      <TR><TD PORT="LINKED_ACCOUNT" COLSPAN="3" ALIGN="LEFT">LINKED_ACCOUNT</TD></TR>
+      <TR><TD PORT="Settle_LinkedAcccash" COLSPAN="3" ALIGN="LEFT">Settle_LinkedAcccash</TD></TR>
+      <TR><TD PORT="OverrideType" COLSPAN="3" ALIGN="LEFT">OverrideType</TD></TR>
+      <TR><TD PORT="ORSMIGRATIONFLAG" COLSPAN="3" ALIGN="LEFT">ORSMIGRATIONFLAG</TD></TR>
+      <TR><TD PORT="BulkHeadId" COLSPAN="3" ALIGN="LEFT">BulkHeadId</TD></TR>
+      <TR><TD PORT="AMLAuth_Remarks" COLSPAN="3" ALIGN="LEFT">AMLAuth_Remarks</TD></TR>
+      <TR><TD PORT="NEFT_BRANCH" COLSPAN="3" ALIGN="LEFT">NEFT_BRANCH</TD></TR>
+      <TR><TD PORT="Agent" COLSPAN="3" ALIGN="LEFT">Agent</TD></TR>
+      <TR><TD PORT="Refund_Remarks" COLSPAN="3" ALIGN="LEFT">Refund_Remarks</TD></TR>
+      <TR><TD PORT="Refund_Old_TrnNo" COLSPAN="3" ALIGN="LEFT">Refund_Old_TrnNo</TD></TR>
+      <TR><TD PORT="Cheque_Amount" COLSPAN="3" ALIGN="LEFT">Cheque_Amount</TD></TR>
+      <TR><TD PORT="RefundBy" COLSPAN="3" ALIGN="LEFT">RefundBy</TD></TR>
+      <TR><TD PORT="RefundDateTime" COLSPAN="3" ALIGN="LEFT">RefundDateTime</TD></TR>
+      <TR><TD PORT="TxnReleaseDateTime" COLSPAN="3" ALIGN="LEFT">TxnReleaseDateTime</TD></TR>
+      <TR><TD PORT="RMBAmt" COLSPAN="3" ALIGN="LEFT">RMBAmt</TD></TR>
+      <TR><TD PORT="EquiSGDAmt" COLSPAN="3" ALIGN="LEFT">EquiSGDAmt</TD></TR>
+      <TR><TD PORT="BalSGDAmt" COLSPAN="3" ALIGN="LEFT">BalSGDAmt</TD></TR>
+      <TR><TD PORT="RMBRate" COLSPAN="3" ALIGN="LEFT">RMBRate</TD></TR>
+      <TR><TD PORT="OldReferenceNo" COLSPAN="3" ALIGN="LEFT">OldReferenceNo</TD></TR>
+      <TR><TD PORT="AmendCharges" COLSPAN="3" ALIGN="LEFT">AmendCharges</TD></TR>
+      <TR><TD PORT="SourceOfFund" COLSPAN="3" ALIGN="LEFT">SourceOfFund</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/TBL_REMITTRANSACTION_HISTORY.html"
+    tooltip="TBL_REMITTRANSACTION_HISTORY"
+  ];
+}

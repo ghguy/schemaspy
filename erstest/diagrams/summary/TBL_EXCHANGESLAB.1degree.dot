@@ -1,0 +1,44 @@
+// dot 2.38.0 on Windows 10 10.0
+// SchemaSpy rev 590
+digraph "TBL_EXCHANGESLAB" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "TBL_EXCHANGESLAB" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">TBL_EXCHANGESLAB</TD></TR>
+      <TR><TD PORT="Ccy" COLSPAN="3" ALIGN="LEFT">Ccy</TD></TR>
+      <TR><TD PORT="From_Amt" COLSPAN="3" ALIGN="LEFT">From_Amt</TD></TR>
+      <TR><TD PORT="To_Amt" COLSPAN="3" ALIGN="LEFT">To_Amt</TD></TR>
+      <TR><TD PORT="Increment" COLSPAN="3" ALIGN="LEFT">Increment</TD></TR>
+      <TR><TD PORT="Delete_Flag" COLSPAN="3" ALIGN="LEFT">Delete_Flag</TD></TR>
+      <TR><TD PORT="Auth_Flag" COLSPAN="3" ALIGN="LEFT">Auth_Flag</TD></TR>
+      <TR><TD PORT="Auth_Id" COLSPAN="3" ALIGN="LEFT">Auth_Id</TD></TR>
+      <TR><TD PORT="Auth_DateTime" COLSPAN="3" ALIGN="LEFT">Auth_DateTime</TD></TR>
+      <TR><TD PORT="Created_By" COLSPAN="3" ALIGN="LEFT">Created_By</TD></TR>
+      <TR><TD PORT="Created_DateTime" COLSPAN="3" ALIGN="LEFT">Created_DateTime</TD></TR>
+      <TR><TD PORT="CustType" COLSPAN="3" ALIGN="LEFT">CustType</TD></TR>
+      <TR><TD PORT="Location" COLSPAN="3" ALIGN="LEFT">Location</TD></TR>
+      <TR><TD PORT="Bank" COLSPAN="3" ALIGN="LEFT">Bank</TD></TR>
+      <TR><TD PORT="Channel" COLSPAN="3" ALIGN="LEFT">Channel</TD></TR>
+      <TR><TD PORT="CommIncrement" COLSPAN="3" ALIGN="LEFT">CommIncrement</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">11 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/TBL_EXCHANGESLAB.html"
+    tooltip="TBL_EXCHANGESLAB"
+  ];
+}

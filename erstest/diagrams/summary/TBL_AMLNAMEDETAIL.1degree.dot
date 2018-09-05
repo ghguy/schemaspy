@@ -1,0 +1,36 @@
+// dot 2.38.0 on Windows 10 10.0
+// SchemaSpy rev 590
+digraph "TBL_AMLNAMEDETAIL" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "TBL_AMLNAMEDETAIL" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">TBL_AMLNAMEDETAIL</TD></TR>
+      <TR><TD PORT="AltBlkList_id" COLSPAN="3" ALIGN="LEFT">AltBlkList_id</TD></TR>
+      <TR><TD PORT="BlockList_id" COLSPAN="3" ALIGN="LEFT">BlockList_id</TD></TR>
+      <TR><TD PORT="AltBlkList_Name" COLSPAN="3" ALIGN="LEFT">AltBlkList_Name</TD></TR>
+      <TR><TD PORT="AltBlkList_Type" COLSPAN="3" ALIGN="LEFT">AltBlkList_Type</TD></TR>
+      <TR><TD PORT="AltBlkList_Remarks" COLSPAN="3" ALIGN="LEFT">AltBlkList_Remarks</TD></TR>
+      <TR><TD PORT="Updatedby" COLSPAN="3" ALIGN="LEFT">Updatedby</TD></TR>
+      <TR><TD PORT="Rowstatus" COLSPAN="3" ALIGN="LEFT">Rowstatus</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">31,365 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/TBL_AMLNAMEDETAIL.html"
+    tooltip="TBL_AMLNAMEDETAIL"
+  ];
+}

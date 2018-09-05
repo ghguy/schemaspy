@@ -1,0 +1,38 @@
+// dot 2.38.0 on Windows 10 10.0
+// SchemaSpy rev 590
+digraph "TBL_CATEGORY_MASTER" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "TBL_CATEGORY_MASTER" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">TBL_CATEGORY_MASTER</TD></TR>
+      <TR><TD PORT="Category_Name" COLSPAN="3" ALIGN="LEFT">Category_Name</TD></TR>
+      <TR><TD PORT="Category_Marks" COLSPAN="3" ALIGN="LEFT">Category_Marks</TD></TR>
+      <TR><TD PORT="Category_MaxRemYly" COLSPAN="3" ALIGN="LEFT">Category_MaxRemYly</TD></TR>
+      <TR><TD PORT="Category_MaxRemHly" COLSPAN="3" ALIGN="LEFT">Category_MaxRemHly</TD></TR>
+      <TR><TD PORT="Category_MaxRemQly" COLSPAN="3" ALIGN="LEFT">Category_MaxRemQly</TD></TR>
+      <TR><TD PORT="Category_TransPerYear" COLSPAN="3" ALIGN="LEFT">Category_TransPerYear</TD></TR>
+      <TR><TD PORT="Created_By" COLSPAN="3" ALIGN="LEFT">Created_By</TD></TR>
+      <TR><TD PORT="Created_DateTime" COLSPAN="3" ALIGN="LEFT">Created_DateTime</TD></TR>
+      <TR><TD PORT="Category_RowStatus" COLSPAN="3" ALIGN="LEFT">Category_RowStatus</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/TBL_CATEGORY_MASTER.html"
+    tooltip="TBL_CATEGORY_MASTER"
+  ];
+}

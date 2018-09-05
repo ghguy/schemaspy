@@ -1,0 +1,130 @@
+// dot 2.38.0 on Windows 10 10.0
+// SchemaSpy rev 590
+digraph "TBL_SYSPARAM" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "TBL_SYSPARAM" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">TBL_SYSPARAM</TD></TR>
+      <TR><TD PORT="MinUniquePwd" COLSPAN="3" ALIGN="LEFT">MinUniquePwd</TD></TR>
+      <TR><TD PORT="MaxPwdRetry" COLSPAN="3" ALIGN="LEFT">MaxPwdRetry</TD></TR>
+      <TR><TD PORT="MinPwdLength" COLSPAN="3" ALIGN="LEFT">MinPwdLength</TD></TR>
+      <TR><TD PORT="PwdExpiryDays" COLSPAN="3" ALIGN="LEFT">PwdExpiryDays</TD></TR>
+      <TR><TD PORT="EmailServer" COLSPAN="3" ALIGN="LEFT">EmailServer</TD></TR>
+      <TR><TD PORT="EmailID" COLSPAN="3" ALIGN="LEFT">EmailID</TD></TR>
+      <TR><TD PORT="EmailIDPwd" COLSPAN="3" ALIGN="LEFT">EmailIDPwd</TD></TR>
+      <TR><TD PORT="DomainName" COLSPAN="3" ALIGN="LEFT">DomainName</TD></TR>
+      <TR><TD PORT="AMLSearch" COLSPAN="3" ALIGN="LEFT">AMLSearch</TD></TR>
+      <TR><TD PORT="RemitLimit" COLSPAN="3" ALIGN="LEFT">RemitLimit</TD></TR>
+      <TR><TD PORT="LoyaltyEnabled" COLSPAN="3" ALIGN="LEFT">LoyaltyEnabled</TD></TR>
+      <TR><TD PORT="InstCreditLmt" COLSPAN="3" ALIGN="LEFT">InstCreditLmt</TD></TR>
+      <TR><TD PORT="Session_TimeoutTime" COLSPAN="3" ALIGN="LEFT">Session_TimeoutTime</TD></TR>
+      <TR><TD PORT="RepExportFolder" COLSPAN="3" ALIGN="LEFT">RepExportFolder</TD></TR>
+      <TR><TD PORT="CustFilePath" COLSPAN="3" ALIGN="LEFT">CustFilePath</TD></TR>
+      <TR><TD PORT="ServerCustFilePath" COLSPAN="3" ALIGN="LEFT">ServerCustFilePath</TD></TR>
+      <TR><TD PORT="NREFilePath" COLSPAN="3" ALIGN="LEFT">NREFilePath</TD></TR>
+      <TR><TD PORT="ServerNREFilePath" COLSPAN="3" ALIGN="LEFT">ServerNREFilePath</TD></TR>
+      <TR><TD PORT="RemitFilePath" COLSPAN="3" ALIGN="LEFT">RemitFilePath</TD></TR>
+      <TR><TD PORT="MailerRightMargin" COLSPAN="3" ALIGN="LEFT">MailerRightMargin</TD></TR>
+      <TR><TD PORT="MailerRightYPos" COLSPAN="3" ALIGN="LEFT">MailerRightYPos</TD></TR>
+      <TR><TD PORT="MailerYPos" COLSPAN="3" ALIGN="LEFT">MailerYPos</TD></TR>
+      <TR><TD PORT="FontName" COLSPAN="3" ALIGN="LEFT">FontName</TD></TR>
+      <TR><TD PORT="FontSize" COLSPAN="3" ALIGN="LEFT">FontSize</TD></TR>
+      <TR><TD PORT="MailerLeftMargin" COLSPAN="3" ALIGN="LEFT">MailerLeftMargin</TD></TR>
+      <TR><TD PORT="RemitCardBarcodeY" COLSPAN="3" ALIGN="LEFT">RemitCardBarcodeY</TD></TR>
+      <TR><TD PORT="MTInstantFilePath" COLSPAN="3" ALIGN="LEFT">MTInstantFilePath</TD></TR>
+      <TR><TD PORT="MTInstantServerFilePath" COLSPAN="3" ALIGN="LEFT">MTInstantServerFilePath</TD></TR>
+      <TR><TD PORT="HighValInstantFilePath" COLSPAN="3" ALIGN="LEFT">HighValInstantFilePath</TD></TR>
+      <TR><TD PORT="HighValInstantServerFilePath" COLSPAN="3" ALIGN="LEFT">HighValInstantServerFilePath</TD></TR>
+      <TR><TD PORT="AMLDBName" COLSPAN="3" ALIGN="LEFT">AMLDBName</TD></TR>
+      <TR><TD PORT="EnableNameCheck" COLSPAN="3" ALIGN="LEFT">EnableNameCheck</TD></TR>
+      <TR><TD PORT="PrinterName" COLSPAN="3" ALIGN="LEFT">PrinterName</TD></TR>
+      <TR><TD PORT="DDPrinterName" COLSPAN="3" ALIGN="LEFT">DDPrinterName</TD></TR>
+      <TR><TD PORT="ServerFilePath" COLSPAN="3" ALIGN="LEFT">ServerFilePath</TD></TR>
+      <TR><TD PORT="FilePath" COLSPAN="3" ALIGN="LEFT">FilePath</TD></TR>
+      <TR><TD PORT="BranchCode" COLSPAN="3" ALIGN="LEFT">BranchCode</TD></TR>
+      <TR><TD PORT="OFAC" COLSPAN="3" ALIGN="LEFT">OFAC</TD></TR>
+      <TR><TD PORT="UNList" COLSPAN="3" ALIGN="LEFT">UNList</TD></TR>
+      <TR><TD PORT="OFACLocalPath" COLSPAN="3" ALIGN="LEFT">OFACLocalPath</TD></TR>
+      <TR><TD PORT="UNListLocalPath" COLSPAN="3" ALIGN="LEFT">UNListLocalPath</TD></TR>
+      <TR><TD PORT="EncryptConstr" COLSPAN="3" ALIGN="LEFT">EncryptConstr</TD></TR>
+      <TR><TD PORT="TdesKey" COLSPAN="3" ALIGN="LEFT">TdesKey</TD></TR>
+      <TR><TD PORT="EncryptFilePath" COLSPAN="3" ALIGN="LEFT">EncryptFilePath</TD></TR>
+      <TR><TD PORT="DecryptFilePath" COLSPAN="3" ALIGN="LEFT">DecryptFilePath</TD></TR>
+      <TR><TD PORT="BrowsePath" COLSPAN="3" ALIGN="LEFT">BrowsePath</TD></TR>
+      <TR><TD PORT="NeftFilePath" COLSPAN="3" ALIGN="LEFT">NeftFilePath</TD></TR>
+      <TR><TD PORT="CBSAcNo" COLSPAN="3" ALIGN="LEFT">CBSAcNo</TD></TR>
+      <TR><TD PORT="VoucherFilePath" COLSPAN="3" ALIGN="LEFT">VoucherFilePath</TD></TR>
+      <TR><TD PORT="VoucherFileServerPath" COLSPAN="3" ALIGN="LEFT">VoucherFileServerPath</TD></TR>
+      <TR><TD PORT="DDLeftMargin" COLSPAN="3" ALIGN="LEFT">DDLeftMargin</TD></TR>
+      <TR><TD PORT="DDLeftMarginBranch" COLSPAN="3" ALIGN="LEFT">DDLeftMarginBranch</TD></TR>
+      <TR><TD PORT="DDRightMargin" COLSPAN="3" ALIGN="LEFT">DDRightMargin</TD></TR>
+      <TR><TD PORT="DDYPos" COLSPAN="3" ALIGN="LEFT">DDYPos</TD></TR>
+      <TR><TD PORT="DDDate" COLSPAN="3" ALIGN="LEFT">DDDate</TD></TR>
+      <TR><TD PORT="DDNo" COLSPAN="3" ALIGN="LEFT">DDNo</TD></TR>
+      <TR><TD PORT="BeneName" COLSPAN="3" ALIGN="LEFT">BeneName</TD></TR>
+      <TR><TD PORT="AmountinWords" COLSPAN="3" ALIGN="LEFT">AmountinWords</TD></TR>
+      <TR><TD PORT="DDFont" COLSPAN="3" ALIGN="LEFT">DDFont</TD></TR>
+      <TR><TD PORT="DDFontBold" COLSPAN="3" ALIGN="LEFT">DDFontBold</TD></TR>
+      <TR><TD PORT="DDFontSize" COLSPAN="3" ALIGN="LEFT">DDFontSize</TD></TR>
+      <TR><TD PORT="Payableat" COLSPAN="3" ALIGN="LEFT">Payableat</TD></TR>
+      <TR><TD PORT="InstCcy" COLSPAN="3" ALIGN="LEFT">InstCcy</TD></TR>
+      <TR><TD PORT="ValueDate" COLSPAN="3" ALIGN="LEFT">ValueDate</TD></TR>
+      <TR><TD PORT="ExchRate" COLSPAN="3" ALIGN="LEFT">ExchRate</TD></TR>
+      <TR><TD PORT="ApplicantName" COLSPAN="3" ALIGN="LEFT">ApplicantName</TD></TR>
+      <TR><TD PORT="Commission" COLSPAN="3" ALIGN="LEFT">Commission</TD></TR>
+      <TR><TD PORT="TotalAmt" COLSPAN="3" ALIGN="LEFT">TotalAmt</TD></TR>
+      <TR><TD PORT="SMTPServer" COLSPAN="3" ALIGN="LEFT">SMTPServer</TD></TR>
+      <TR><TD PORT="SMTPPort" COLSPAN="3" ALIGN="LEFT">SMTPPort</TD></TR>
+      <TR><TD PORT="SenderMailId" COLSPAN="3" ALIGN="LEFT">SenderMailId</TD></TR>
+      <TR><TD PORT="SenderPwd" COLSPAN="3" ALIGN="LEFT">SenderPwd</TD></TR>
+      <TR><TD PORT="emailAlert" COLSPAN="3" ALIGN="LEFT">emailAlert</TD></TR>
+      <TR><TD PORT="HeadOffice" COLSPAN="3" ALIGN="LEFT">HeadOffice</TD></TR>
+      <TR><TD PORT="BulkVoucherTxnCount" COLSPAN="3" ALIGN="LEFT">BulkVoucherTxnCount</TD></TR>
+      <TR><TD PORT="VoucherServiceStatus" COLSPAN="3" ALIGN="LEFT">VoucherServiceStatus</TD></TR>
+      <TR><TD PORT="NEFT_Upload_Flag" COLSPAN="3" ALIGN="LEFT">NEFT_Upload_Flag</TD></TR>
+      <TR><TD PORT="MQ_ServerName" COLSPAN="3" ALIGN="LEFT">MQ_ServerName</TD></TR>
+      <TR><TD PORT="MQ_Name" COLSPAN="3" ALIGN="LEFT">MQ_Name</TD></TR>
+      <TR><TD PORT="CommOverride" COLSPAN="3" ALIGN="LEFT">CommOverride</TD></TR>
+      <TR><TD PORT="ExchOverride" COLSPAN="3" ALIGN="LEFT">ExchOverride</TD></TR>
+      <TR><TD PORT="SourceOfFund" COLSPAN="3" ALIGN="LEFT">SourceOfFund</TD></TR>
+      <TR><TD PORT="LastTxn" COLSPAN="3" ALIGN="LEFT">LastTxn</TD></TR>
+      <TR><TD PORT="AmlOverride" COLSPAN="3" ALIGN="LEFT">AmlOverride</TD></TR>
+      <TR><TD PORT="RemitCCY" COLSPAN="3" ALIGN="LEFT">RemitCCY</TD></TR>
+      <TR><TD PORT="NEFTNo" COLSPAN="3" ALIGN="LEFT">NEFTNo</TD></TR>
+      <TR><TD PORT="LastTransactionDays" COLSPAN="3" ALIGN="LEFT">LastTransactionDays</TD></TR>
+      <TR><TD PORT="InstCcy1" COLSPAN="3" ALIGN="LEFT">InstCcy1</TD></TR>
+      <TR><TD PORT="DDDate1" COLSPAN="3" ALIGN="LEFT">DDDate1</TD></TR>
+      <TR><TD PORT="DDNo1" COLSPAN="3" ALIGN="LEFT">DDNo1</TD></TR>
+      <TR><TD PORT="Branch" COLSPAN="3" ALIGN="LEFT">Branch</TD></TR>
+      <TR><TD PORT="Name1" COLSPAN="3" ALIGN="LEFT">Name1</TD></TR>
+      <TR><TD PORT="LocalCcy" COLSPAN="3" ALIGN="LEFT">LocalCcy</TD></TR>
+      <TR><TD PORT="dailylimit" COLSPAN="3" ALIGN="LEFT">dailylimit</TD></TR>
+      <TR><TD PORT="AMLTrnCount" COLSPAN="3" ALIGN="LEFT">AMLTrnCount</TD></TR>
+      <TR><TD PORT="AMLEquiAmtLimit" COLSPAN="3" ALIGN="LEFT">AMLEquiAmtLimit</TD></TR>
+      <TR><TD PORT="EODCloserDate" COLSPAN="3" ALIGN="LEFT">EODCloserDate</TD></TR>
+      <TR><TD PORT="IRMaxlimit" COLSPAN="3" ALIGN="LEFT">IRMaxlimit</TD></TR>
+      <TR><TD PORT="CommissionAmtLmt" COLSPAN="3" ALIGN="LEFT">CommissionAmtLmt</TD></TR>
+      <TR><TD PORT="PartialPayRMBCharges" COLSPAN="3" ALIGN="LEFT">PartialPayRMBCharges</TD></TR>
+      <TR><TD PORT="RefundOtherCharges" COLSPAN="3" ALIGN="LEFT">RefundOtherCharges</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">1 row</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/TBL_SYSPARAM.html"
+    tooltip="TBL_SYSPARAM"
+  ];
+}

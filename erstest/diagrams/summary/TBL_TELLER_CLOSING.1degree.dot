@@ -1,0 +1,46 @@
+// dot 2.38.0 on Windows 10 10.0
+// SchemaSpy rev 590
+digraph "TBL_TELLER_CLOSING" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "TBL_TELLER_CLOSING" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">TBL_TELLER_CLOSING</TD></TR>
+      <TR><TD PORT="Row_No" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">Row_No</TD></TR>
+      <TR><TD PORT="Trn_Date" COLSPAN="3" ALIGN="LEFT">Trn_Date</TD></TR>
+      <TR><TD PORT="Teller_ID" COLSPAN="3" ALIGN="LEFT">Teller_ID</TD></TR>
+      <TR><TD PORT="Big_Cash" COLSPAN="3" ALIGN="LEFT">Big_Cash</TD></TR>
+      <TR><TD PORT="Small_Cash" COLSPAN="3" ALIGN="LEFT">Small_Cash</TD></TR>
+      <TR><TD PORT="Bulk_Cash" COLSPAN="3" ALIGN="LEFT">Bulk_Cash</TD></TR>
+      <TR><TD PORT="AC_Transfer" COLSPAN="3" ALIGN="LEFT">AC_Transfer</TD></TR>
+      <TR><TD PORT="NETS" COLSPAN="3" ALIGN="LEFT">NETS</TD></TR>
+      <TR><TD PORT="Cheque" COLSPAN="3" ALIGN="LEFT">Cheque</TD></TR>
+      <TR><TD PORT="Cisco" COLSPAN="3" ALIGN="LEFT">Cisco</TD></TR>
+      <TR><TD PORT="RMB_Cash" COLSPAN="3" ALIGN="LEFT">RMB_Cash</TD></TR>
+      <TR><TD PORT="Inward_Cash" COLSPAN="3" ALIGN="LEFT">Inward_Cash</TD></TR>
+      <TR><TD PORT="Remarks" COLSPAN="3" ALIGN="LEFT">Remarks</TD></TR>
+      <TR><TD PORT="Created_By" COLSPAN="3" ALIGN="LEFT">Created_By</TD></TR>
+      <TR><TD PORT="Created_Dt" COLSPAN="3" ALIGN="LEFT">Created_Dt</TD></TR>
+      <TR><TD PORT="Modified_By" COLSPAN="3" ALIGN="LEFT">Modified_By</TD></TR>
+      <TR><TD PORT="Modified_Dt" COLSPAN="3" ALIGN="LEFT">Modified_Dt</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">5,217 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/TBL_TELLER_CLOSING.html"
+    tooltip="TBL_TELLER_CLOSING"
+  ];
+}

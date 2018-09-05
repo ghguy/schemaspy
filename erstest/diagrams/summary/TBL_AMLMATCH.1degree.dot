@@ -1,0 +1,45 @@
+// dot 2.38.0 on Windows 10 10.0
+// SchemaSpy rev 590
+digraph "TBL_AMLMATCH" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "TBL_AMLMATCH" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">TBL_AMLMATCH</TD></TR>
+      <TR><TD PORT="Id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">Id</TD></TR>
+      <TR><TD PORT="Trn_No" COLSPAN="3" ALIGN="LEFT">Trn_No</TD></TR>
+      <TR><TD PORT="TempNo" COLSPAN="3" ALIGN="LEFT">TempNo</TD></TR>
+      <TR><TD PORT="Name" COLSPAN="3" ALIGN="LEFT">Name</TD></TR>
+      <TR><TD PORT="NameType" COLSPAN="3" ALIGN="LEFT">NameType</TD></TR>
+      <TR><TD PORT="Aml_Score" COLSPAN="3" ALIGN="LEFT">Aml_Score</TD></TR>
+      <TR><TD PORT="Aml_MatchType" COLSPAN="3" ALIGN="LEFT">Aml_MatchType</TD></TR>
+      <TR><TD PORT="Aml_Name" COLSPAN="3" ALIGN="LEFT">Aml_Name</TD></TR>
+      <TR><TD PORT="Aml_Country" COLSPAN="3" ALIGN="LEFT">Aml_Country</TD></TR>
+      <TR><TD PORT="Aml_Title" COLSPAN="3" ALIGN="LEFT">Aml_Title</TD></TR>
+      <TR><TD PORT="Aml_Gender" COLSPAN="3" ALIGN="LEFT">Aml_Gender</TD></TR>
+      <TR><TD PORT="Aml_AlternateNames" COLSPAN="3" ALIGN="LEFT">Aml_AlternateNames</TD></TR>
+      <TR><TD PORT="Aml_CreatedBy" COLSPAN="3" ALIGN="LEFT">Aml_CreatedBy</TD></TR>
+      <TR><TD PORT="Aml_CreatedDateTime" COLSPAN="3" ALIGN="LEFT">Aml_CreatedDateTime</TD></TR>
+      <TR><TD PORT="Aml_UpdatedBy" COLSPAN="3" ALIGN="LEFT">Aml_UpdatedBy</TD></TR>
+      <TR><TD PORT="Aml_UpdatedDateTime" COLSPAN="3" ALIGN="LEFT">Aml_UpdatedDateTime</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/TBL_AMLMATCH.html"
+    tooltip="TBL_AMLMATCH"
+  ];
+}

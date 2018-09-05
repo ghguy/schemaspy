@@ -1,0 +1,1 @@
+java -jar ./schemaSpy_5.0.0.jar -dp ./mysql-connector-java-5.1.18.jar -t mysql -host 162.251.112.180 -port 3306 -db stem_db -u tanj -p test1234 -o stem_db 

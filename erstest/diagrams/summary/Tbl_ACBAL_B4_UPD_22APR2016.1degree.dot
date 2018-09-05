@@ -1,0 +1,36 @@
+// dot 2.38.0 on Windows 10 10.0
+// SchemaSpy rev 590
+digraph "Tbl_ACBAL_B4_UPD_22APR2016" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "Tbl_ACBAL_B4_UPD_22APR2016" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">Tbl_ACBAL_B4_UPD_22APR2016</TD></TR>
+      <TR><TD PORT="Date" COLSPAN="3" ALIGN="LEFT">Date</TD></TR>
+      <TR><TD PORT="FI_Agent" COLSPAN="3" ALIGN="LEFT">FI_Agent</TD></TR>
+      <TR><TD PORT="AccountNo" COLSPAN="3" ALIGN="LEFT">AccountNo</TD></TR>
+      <TR><TD PORT="BankCode" COLSPAN="3" ALIGN="LEFT">BankCode</TD></TR>
+      <TR><TD PORT="CCY" COLSPAN="3" ALIGN="LEFT">CCY</TD></TR>
+      <TR><TD PORT="Amount" COLSPAN="3" ALIGN="LEFT">Amount</TD></TR>
+      <TR><TD PORT="UpdatedBy" COLSPAN="3" ALIGN="LEFT">UpdatedBy</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">132 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/Tbl_ACBAL_B4_UPD_22APR2016.html"
+    tooltip="Tbl_ACBAL_B4_UPD_22APR2016"
+  ];
+}

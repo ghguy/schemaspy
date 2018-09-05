@@ -1,0 +1,36 @@
+// dot 2.38.0 on Windows 10 10.0
+// SchemaSpy rev 590
+digraph "TBL_DROPDOWNVALUES" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "TBL_DROPDOWNVALUES" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">TBL_DROPDOWNVALUES</TD></TR>
+      <TR><TD PORT="ItemName" COLSPAN="3" ALIGN="LEFT">ItemName</TD></TR>
+      <TR><TD PORT="ItemValue" COLSPAN="3" ALIGN="LEFT">ItemValue</TD></TR>
+      <TR><TD PORT="Code" COLSPAN="3" ALIGN="LEFT">Code</TD></TR>
+      <TR><TD PORT="RowStatus" COLSPAN="3" ALIGN="LEFT">RowStatus</TD></TR>
+      <TR><TD PORT="Ref" COLSPAN="3" ALIGN="LEFT">Ref</TD></TR>
+      <TR><TD PORT="UpdatedBy" COLSPAN="3" ALIGN="LEFT">UpdatedBy</TD></TR>
+      <TR><TD PORT="UpdatedDateTime" COLSPAN="3" ALIGN="LEFT">UpdatedDateTime</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">5,021 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/TBL_DROPDOWNVALUES.html"
+    tooltip="TBL_DROPDOWNVALUES"
+  ];
+}

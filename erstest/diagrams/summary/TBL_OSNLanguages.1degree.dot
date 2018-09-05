@@ -1,0 +1,36 @@
+// dot 2.38.0 on Windows 10 10.0
+// SchemaSpy rev 590
+digraph "TBL_OSNLanguages" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "TBL_OSNLanguages" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">TBL_OSNLanguages</TD></TR>
+      <TR><TD PORT="Lang_Id" COLSPAN="3" ALIGN="LEFT">Lang_Id</TD></TR>
+      <TR><TD PORT="Language" COLSPAN="3" ALIGN="LEFT">Language</TD></TR>
+      <TR><TD PORT="Lang_Code" COLSPAN="3" ALIGN="LEFT">Lang_Code</TD></TR>
+      <TR><TD PORT="Lang_CreatedBy" COLSPAN="3" ALIGN="LEFT">Lang_CreatedBy</TD></TR>
+      <TR><TD PORT="Lang_CreatedDateTime" COLSPAN="3" ALIGN="LEFT">Lang_CreatedDateTime</TD></TR>
+      <TR><TD PORT="Lang_ModifiedBy" COLSPAN="3" ALIGN="LEFT">Lang_ModifiedBy</TD></TR>
+      <TR><TD PORT="Lang_ModifiedDateTime" COLSPAN="3" ALIGN="LEFT">Lang_ModifiedDateTime</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">43 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/TBL_OSNLanguages.html"
+    tooltip="TBL_OSNLanguages"
+  ];
+}

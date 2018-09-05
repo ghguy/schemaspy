@@ -1,0 +1,43 @@
+// dot 2.38.0 on Windows 10 10.0
+// SchemaSpy rev 590
+digraph "Tbl_CANCELTXN" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "Tbl_CANCELTXN" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">Tbl_CANCELTXN</TD></TR>
+      <TR><TD PORT="CancelTxnNo" COLSPAN="3" ALIGN="LEFT">CancelTxnNo</TD></TR>
+      <TR><TD PORT="PrevTxnNo" COLSPAN="3" ALIGN="LEFT">PrevTxnNo</TD></TR>
+      <TR><TD PORT="TodayExRate" COLSPAN="3" ALIGN="LEFT">TodayExRate</TD></TR>
+      <TR><TD PORT="CancelCharges" COLSPAN="3" ALIGN="LEFT">CancelCharges</TD></TR>
+      <TR><TD PORT="RefundINR" COLSPAN="3" ALIGN="LEFT">RefundINR</TD></TR>
+      <TR><TD PORT="RefundSGD" COLSPAN="3" ALIGN="LEFT">RefundSGD</TD></TR>
+      <TR><TD PORT="CommAmt" COLSPAN="3" ALIGN="LEFT">CommAmt</TD></TR>
+      <TR><TD PORT="EqAmt" COLSPAN="3" ALIGN="LEFT">EqAmt</TD></TR>
+      <TR><TD PORT="UserID" COLSPAN="3" ALIGN="LEFT">UserID</TD></TR>
+      <TR><TD PORT="UpdateDateTime" COLSPAN="3" ALIGN="LEFT">UpdateDateTime</TD></TR>
+      <TR><TD PORT="RowStatus" COLSPAN="3" ALIGN="LEFT">RowStatus</TD></TR>
+      <TR><TD PORT="AuthID" COLSPAN="3" ALIGN="LEFT">AuthID</TD></TR>
+      <TR><TD PORT="AuthRemarks" COLSPAN="3" ALIGN="LEFT">AuthRemarks</TD></TR>
+      <TR><TD PORT="AuthDateTime" COLSPAN="3" ALIGN="LEFT">AuthDateTime</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">3 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/Tbl_CANCELTXN.html"
+    tooltip="Tbl_CANCELTXN"
+  ];
+}

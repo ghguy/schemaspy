@@ -1,0 +1,39 @@
+// dot 2.38.0 on Windows 10 10.0
+// SchemaSpy rev 590
+digraph "TBL_MASNAMEDETAIL" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "TBL_MASNAMEDETAIL" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">TBL_MASNAMEDETAIL</TD></TR>
+      <TR><TD PORT="MAS_AltBlkListID" COLSPAN="3" ALIGN="LEFT">MAS_AltBlkListID</TD></TR>
+      <TR><TD PORT="MAS_BlockListID" COLSPAN="3" ALIGN="LEFT">MAS_BlockListID</TD></TR>
+      <TR><TD PORT="MAS_AltBlkListName" COLSPAN="3" ALIGN="LEFT">MAS_AltBlkListName</TD></TR>
+      <TR><TD PORT="MAS_AltBlkListType" COLSPAN="3" ALIGN="LEFT">MAS_AltBlkListType</TD></TR>
+      <TR><TD PORT="MAS_AltBlkListRemarks" COLSPAN="3" ALIGN="LEFT">MAS_AltBlkListRemarks</TD></TR>
+      <TR><TD PORT="Rowstatus" COLSPAN="3" ALIGN="LEFT">Rowstatus</TD></TR>
+      <TR><TD PORT="MAS_CreatedBy" COLSPAN="3" ALIGN="LEFT">MAS_CreatedBy</TD></TR>
+      <TR><TD PORT="MAS_CreatedDateTime" COLSPAN="3" ALIGN="LEFT">MAS_CreatedDateTime</TD></TR>
+      <TR><TD PORT="MAS_UpdatedBy" COLSPAN="3" ALIGN="LEFT">MAS_UpdatedBy</TD></TR>
+      <TR><TD PORT="MAS_UpdatedDateTime" COLSPAN="3" ALIGN="LEFT">MAS_UpdatedDateTime</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/TBL_MASNAMEDETAIL.html"
+    tooltip="TBL_MASNAMEDETAIL"
+  ];
+}

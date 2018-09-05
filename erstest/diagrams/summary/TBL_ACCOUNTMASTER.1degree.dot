@@ -1,0 +1,44 @@
+// dot 2.38.0 on Windows 10 10.0
+// SchemaSpy rev 590
+digraph "TBL_ACCOUNTMASTER" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "TBL_ACCOUNTMASTER" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">TBL_ACCOUNTMASTER</TD></TR>
+      <TR><TD PORT="ACC_CODE" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">ACC_CODE</TD></TR>
+      <TR><TD PORT="ACC_NAME" COLSPAN="3" ALIGN="LEFT">ACC_NAME</TD></TR>
+      <TR><TD PORT="ACC_NO" COLSPAN="3" ALIGN="LEFT">ACC_NO</TD></TR>
+      <TR><TD PORT="ACC_BANKCODE" COLSPAN="3" ALIGN="LEFT">ACC_BANKCODE</TD></TR>
+      <TR><TD PORT="ACC_BANK" COLSPAN="3" ALIGN="LEFT">ACC_BANK</TD></TR>
+      <TR><TD PORT="ACC_BRANCH" COLSPAN="3" ALIGN="LEFT">ACC_BRANCH</TD></TR>
+      <TR><TD PORT="ACC_BALANCE" COLSPAN="3" ALIGN="LEFT">ACC_BALANCE</TD></TR>
+      <TR><TD PORT="ACC_CCY" COLSPAN="3" ALIGN="LEFT">ACC_CCY</TD></TR>
+      <TR><TD PORT="ACC_CREATEDBY" COLSPAN="3" ALIGN="LEFT">ACC_CREATEDBY</TD></TR>
+      <TR><TD PORT="ACC_CREATEDDATE" COLSPAN="3" ALIGN="LEFT">ACC_CREATEDDATE</TD></TR>
+      <TR><TD PORT="ACC_MODIFIEDBY" COLSPAN="3" ALIGN="LEFT">ACC_MODIFIEDBY</TD></TR>
+      <TR><TD PORT="ACC_MODIFIEDDATE" COLSPAN="3" ALIGN="LEFT">ACC_MODIFIEDDATE</TD></TR>
+      <TR><TD PORT="RowStatus" COLSPAN="3" ALIGN="LEFT">RowStatus</TD></TR>
+      <TR><TD PORT="DefaultFlag" COLSPAN="3" ALIGN="LEFT">DefaultFlag</TD></TR>
+      <TR><TD PORT="AGENT_CODE" COLSPAN="3" ALIGN="LEFT">AGENT_CODE</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">541 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/TBL_ACCOUNTMASTER.html"
+    tooltip="TBL_ACCOUNTMASTER"
+  ];
+}

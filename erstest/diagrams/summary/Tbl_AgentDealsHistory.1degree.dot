@@ -1,0 +1,38 @@
+// dot 2.38.0 on Windows 10 10.0
+// SchemaSpy rev 590
+digraph "Tbl_AgentDealsHistory" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "Tbl_AgentDealsHistory" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">Tbl_AgentDealsHistory</TD></TR>
+      <TR><TD PORT="DealId" COLSPAN="3" ALIGN="LEFT">DealId</TD></TR>
+      <TR><TD PORT="DealDate" COLSPAN="3" ALIGN="LEFT">DealDate</TD></TR>
+      <TR><TD PORT="DepositAmount" COLSPAN="3" ALIGN="LEFT">DepositAmount</TD></TR>
+      <TR><TD PORT="BankCode" COLSPAN="3" ALIGN="LEFT">BankCode</TD></TR>
+      <TR><TD PORT="AgentAccNo" COLSPAN="3" ALIGN="LEFT">AgentAccNo</TD></TR>
+      <TR><TD PORT="FICode" COLSPAN="3" ALIGN="LEFT">FICode</TD></TR>
+      <TR><TD PORT="ReceiptNo" COLSPAN="3" ALIGN="LEFT">ReceiptNo</TD></TR>
+      <TR><TD PORT="CCY" COLSPAN="3" ALIGN="LEFT">CCY</TD></TR>
+      <TR><TD PORT="Remarks" COLSPAN="3" ALIGN="LEFT">Remarks</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">0 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/Tbl_AgentDealsHistory.html"
+    tooltip="Tbl_AgentDealsHistory"
+  ];
+}

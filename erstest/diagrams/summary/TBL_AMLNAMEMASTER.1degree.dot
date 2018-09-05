@@ -1,0 +1,43 @@
+// dot 2.38.0 on Windows 10 10.0
+// SchemaSpy rev 590
+digraph "TBL_AMLNAMEMASTER" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "TBL_AMLNAMEMASTER" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">TBL_AMLNAMEMASTER</TD></TR>
+      <TR><TD PORT="BlockList_id" COLSPAN="3" ALIGN="LEFT">BlockList_id</TD></TR>
+      <TR><TD PORT="BlockList_Name" COLSPAN="3" ALIGN="LEFT">BlockList_Name</TD></TR>
+      <TR><TD PORT="BlockList_Type" COLSPAN="3" ALIGN="LEFT">BlockList_Type</TD></TR>
+      <TR><TD PORT="BlockList_Pgm" COLSPAN="3" ALIGN="LEFT">BlockList_Pgm</TD></TR>
+      <TR><TD PORT="BlockList_Title" COLSPAN="3" ALIGN="LEFT">BlockList_Title</TD></TR>
+      <TR><TD PORT="Call_Sign" COLSPAN="3" ALIGN="LEFT">Call_Sign</TD></TR>
+      <TR><TD PORT="Vessel_Type" COLSPAN="3" ALIGN="LEFT">Vessel_Type</TD></TR>
+      <TR><TD PORT="Tonnage" COLSPAN="3" ALIGN="LEFT">Tonnage</TD></TR>
+      <TR><TD PORT="GRT" COLSPAN="3" ALIGN="LEFT">GRT</TD></TR>
+      <TR><TD PORT="Vessel_Flag" COLSPAN="3" ALIGN="LEFT">Vessel_Flag</TD></TR>
+      <TR><TD PORT="Vessel_Owner" COLSPAN="3" ALIGN="LEFT">Vessel_Owner</TD></TR>
+      <TR><TD PORT="Remarks" COLSPAN="3" ALIGN="LEFT">Remarks</TD></TR>
+      <TR><TD PORT="Rowstatus" COLSPAN="3" ALIGN="LEFT">Rowstatus</TD></TR>
+      <TR><TD PORT="Updatedby" COLSPAN="3" ALIGN="LEFT">Updatedby</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">22,283 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/TBL_AMLNAMEMASTER.html"
+    tooltip="TBL_AMLNAMEMASTER"
+  ];
+}
